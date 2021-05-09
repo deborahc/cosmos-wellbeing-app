@@ -1,16 +1,27 @@
 <!DOCTYPE html>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@next/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="./visualization.js"></script>
+
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Cosmos Wellbeing Survey Results</title>
 </head>
 
 <body>
   <main>
-    <h1>Hello world!</h1>
+    <h1>Survey results</h1>
+    <div>
+      <canvas id="chart1"></canvas>
+    </div>
+
+    <div>
+      <canvas id="chart2"></canvas>
+    </div>
   </main>
 </body>
 
