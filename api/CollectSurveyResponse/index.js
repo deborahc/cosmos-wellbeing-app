@@ -6,6 +6,6 @@ module.exports = async function (context, req) {
     const { resource: createdItem } = await container.items.create(req.body);
 
     context.res = {
-        body: createdItem.id
+        body: createdItem
     };
 }
